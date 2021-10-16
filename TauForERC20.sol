@@ -655,9 +655,9 @@ mapping(address => uint256) private _balances;
         _burn(msg.sender, AmountToSell);
         OriginalTokenSAddress.transfer(msg.sender,AmountToSell*SellingPricePerTauToken/1000000000000000000);
     }
-    function SellTokensAmountInOriginal(uint256 AmountInOriginal) public   {
-        _burn(msg.sender,(1000000000000000000*AmountInOriginal+SellingPricePerTauToken-1)/SellingPricePerTauToken);
-        OriginalTokenSAddress.transfer(msg.sender,AmountInOriginal);
+    function SellTokensAmountInOriginal(uint256 AmountToGet) public   {
+        _burn(msg.sender,(1000000000000000000*AmountToGet+SellingPricePerTauToken-1)/SellingPricePerTauToken);
+        OriginalTokenSAddress.transfer(msg.sender,AmountToGet);
     }
     
     /** 
