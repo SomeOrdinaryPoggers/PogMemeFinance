@@ -3,6 +3,7 @@
 //This contract was coded by SomeOrdinaryPoggers
 
 //check out Pog Meme Finance: pogmemefinance.xyz or pogmemefinance2.zil(blockchain domain)
+
 pragma solidity ^0.8.0;
 
 
