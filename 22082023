@@ -13,12 +13,12 @@ uint  d=1000000000000000000000000;
 //00000000000000000 . 00000000000
 // numeral mostly negative  . decimals
 
-(((2**256-1)/2-1-1)/10000000000)
-loop for 1/10000000000 >variance 
-/2*(2**256-1)
-now we have something
+ 
+/2*-(2**256-1)-1
 something=e**x-ln(x)
 ln(x)=-e**x-something
+ln(x)=-e**x-something x=(/2*-(2**256-1)-1)/2 which is bigger choose correct halph,
+repeat choose correct halph until 1 unit  difference
 
 
 e**1-x
@@ -26,6 +26,13 @@ e**1-x
 from one to another for 3 lines
 
 1-ln(x)
+
+
+
+
+
+ed=modifier e/d
+end=e**(1-x)
 
 
 
