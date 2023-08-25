@@ -1,0 +1,44 @@
+pragma solidity 0.8.21;
+copyrighted busl 1.1
+          
+ contract meme11 
+
+uint  e=2718281828459045235360286;
+uint  d=1000000000000000000000000;
+
+
+//e**x=something
+//ln(x)=from something to e**x
+//something=e**x like previos code for 256 integer limit 
+//00000000000000000 . 00000000000
+// numeral mostly negative  . decimals
+
+ 
+/2*-(2**256-1)-1
+something=e**x-ln(x)
+ln(x)=-e**x-something
+ln(x)=-e**x-something x=(-(2**256-1)-1)/4which is bigger choose correct halph,
+then 3
+then 2 
+then repeat choose correct halph until 1 unit  difference
+
+
+e**1-x
+1-ln(x)
+from one to another for 3 lines
+
+1-ln(x)
+
+mid0=/2*-(2**256-1)-1
+function ln() public {
+x=1
+while (j >2) { 
+    
+    if (e**y<e**x){mid1=mid0 (-2**256-mid0-2)/2}
+    mid1 public=(-mid0-)/2 }
+1-mid1}
+
+
+e**1-x
+ed=modifier e/d
+end=e**(1-x)
