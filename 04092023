@@ -1,0 +1,48 @@
+
+
+
+
+ contract meme14 {
+    //what if n ==0
+           function nthrootofa (uint256 a,uint n) public pure returns (bool overflow,uint s,uint B) {
+        //add return boool for j=3
+
+          s=(a/2)-1;
+          B=a;
+
+
+
+        // while loop
+
+
+             B=s;
+            s=s/2;
+
+           uint p3=s-1;//chech p4 overflow
+        while( s+1<B){
+
+
+
+
+             //p3 no defined if pg <lol
+
+             p3=(s+B-1)/2;
+            uint  pg=p3+1;
+             //pog2 might be too big
+             if(p3==s){break;}
+
+          if(p3==s) 
+
+
+             B=p3-1;
+
+
+
+             p3=(s+B-1)/2;
+
+
+           s=p3;
+
+
+             return (false,s,B);
+            }}}
