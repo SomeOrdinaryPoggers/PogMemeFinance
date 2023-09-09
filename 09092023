@@ -1,0 +1,70 @@
+pragma solidity 0.8.21;
+//copyrighted busl 1.1
+          
+
+
+contract eeee {
+uint  e=2718281828459045235360286;
+uint y=4;
+uint  d=1000000000000000000000000;
+//2718281828459045235360286000000000000000000000000
+
+// x is to the last digit not decimal
+//function  end  (uint x) public{uint pi=e**(1-x)/d;
+//}}
+//function  end  (uint x) public{uint pi=1/e**(x-1)/d;
+//}}
+
+//we try to code e**(1-x)
+//whitch is equal to 1/(e**(x-1))
+//whis is fractional, do un usable here
+//we are trying to simplify as d**(x-1)/e**(x-1) now we have d and a non theorical e
+//
+
+function  end  (uint x) public returns(uint pi) { pi=d**(x-1)/e**(x-1);
+}
+function  end2dgt  (uint x) public returns(uint pi) { pi=100*d**(x-1)/e**(x-1);
+}
+
+function  invertend  (uint x) public returns(uint pi) { pi=e**(x-1)/d**(1-x);
+}
+function  invertend2  (uint x) public returns(uint pi) { pi=e**(x-1)*d/2718281828459045235360286000000000000000000000000;
+}
+uint i;
+uint b;
+uint public x ;
+   function loop2(uint x) public {
+        // for loop
+        for (y>0; i < 2**251; i++) {
+           
+            
+
+             b = invertend ( x);
+             //b looks like the ratio for the new y compared to the old y 
+             // we tried but no x=b+x;
+             //y=y/something b
+        }
+
+        // while loop
+        
+    }
+}
+
+            
+
+
+//loop for 3 at a time 15 time for completion anypercent
+//x max would have been 255
+//we can only add 254 time more x than() before, we may need loop for like early pools
+// x for now max 2**256 remember to double with bool 2**257
+//  2**256/25*2**56
+//  2**256/ 100 *3
+
+//015792089237316195423570985008687907853269984665640564039457584007913129639935
+//003000000000000000000000000000000000000000000000000000000000000000000000000000
+//10000000000000000000000000000000000000000000000000000000000000000000000000000        
+//10000000000000000000000000000000000
+//100000000
+//2718281828459045235360286000000000000000000000000
+//100000000000000000000000010000000000000000000000001000000000000000000000000
+//7389056098930650227230419461472596368204226001796000000000000000000000000
