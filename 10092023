@@ -1,0 +1,111 @@
+pragma solidity 0.8.21;
+//copyrighted busl 1.1
+          
+
+
+contract eeee {
+uint  e=2718281828459045235360286;
+uint y=4;
+uint  d=1000000000000000000000000;
+//2718281828459045235360286000000000000000000000000
+
+// x is to the last digit not decimal
+//function  end  (uint x) public{uint pi=e**(1-x)/d;
+//}}
+//function  end  (uint x) public{uint pi=1/e**(x-1)/d;
+//}}
+
+//we try to code e**(1-x)
+//whitch is equal to 1/(e**(x-1))
+//whis is fractional, do un usable here
+//we are trying to simplify as d**(x-1)/e**(x-1) now we have d and a non theorical e
+//
+
+function  end  (uint x) public returns(uint pi) { pi=d**(x-1)/e**(x-1);
+}
+function  end2dgt  (uint x) public returns(uint pi) { pi=100*d**(x-1)/e**(x-1);
+}
+
+function  end5dgt  (uint x) public returns(uint pi) { pi=100000*d**(x-1)/e**(x-1);
+}
+function  invertend  (uint x) public returns(uint pi) { pi=e**(x-1)/d**(1-x);
+}
+function  invertend2  (uint x) public returns(uint pi) { pi=e**(x-1)*d/2718281828459045235360286000000000000000000000000;
+}
+uint i;
+uint b;
+uint public x ;
+   function loop2(uint x) public {
+        // for loop
+        for (y>0; i < 2**251; i++) {
+           
+            
+
+             b = invertend ( x);
+             //b looks like the ratio for the new y compared to the old y 
+             // we tried but no x=b+x;
+             //y=y/something b
+        }
+
+        // while loop
+        
+    }
+
+
+            
+
+
+//loop for 3 at a time 15 time for completion anypercent
+//x max would have been 255
+//we can only add 254 time more x than() before, we may need loop for like early pools
+// x for now max 2**256 remember to double with bool 2**257
+//  2**256/25*2**56
+//  2**256/ 100 *3
+
+//015792089237316195423570985008687907853269984665640564039457584007913129639935
+//003000000000000000000000000000000000000000000000000000000000000000000000000000
+//10000000000000000000000000000000000000000000000000000000000000000000000000000        
+//10000000000000000000000000000000000
+//100000000
+//2718281828459045235360286000000000000000000000000
+//100000000000000000000000010000000000000000000000001000000000000000000000000
+//7389056098930650227230419461472596368204226001796000000000000000000000000
+
+
+//we code 1-ln(x)
+// we need to do the methodology of halphings
+//so we start with e ** n so that is is last one conted with uint 256
+// we will try the inverted the other one idea for now
+
+function  endjk5dgt  (uint x) public returns(uint pi) { pi=15350*200000**(x-1)/543656**(x-1)*1000/1535;
+}
+
+
+
+function  endn6dgt  (uint x) public returns(uint pi) { pi=153500000000000/100000**(x-1)*1000/1535;
+}
+
+
+function  endn5dgt  (uint x) public returns(uint pi) { pi=15350*25000**(x-1)/67957**(x-1)*1000/1535;
+}
+
+
+//loop combine 200000 with 543656
+
+//we have to put 18 digits instead of 1 on x and the go back 
+function  endjn5dgt  (uint x) public returns(uint pi) { pi=1587*2**(x-100000000000000)/1500**(x-10000000000000)*500/1586;
+}
+function  endhn10dgt  (uint x) public returns(uint pi) { pi=2**(3*x + 1) *5**(5 *x - 1)/ 67957**(x-1);
+}
+
+function  endn10dgt  (uint x) public returns(uint pi) { pi=2**(3*x + 1) *5**(5 *x - 1)/ 67957**(x-1);
+}
+
+//2**(3*x/20 + 1) *5**(5 *x/20 - 1)/ 67957**(x/20-1)+y
+//y = 2^(3 x + 1) 5^(5 x - 1) 67957^(1 - x) - 2^((3 x)/20 + 1) 5^(x/4 - 1) 67957^(1 - x/20)
+//2^(3 x + 1) 5^(5 x - 1) 67957^(1 - x)
+function  endn11dgt  (uint x) public returns(uint pi) { pi=2**(3*x + 1) *5**(5*x - 1) /67957**( x-1);
+}
+}
+
+///2**((3 x)/100000000000000000000 - 19) *5**(x/20000000000000000000 - 21) 67957**(1 - x/100000000000000000000) 
