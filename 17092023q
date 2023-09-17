@@ -1,0 +1,84 @@
+
+//copyright busl 1.3
+contract meme11 {
+  uint pg;
+  uint p2;
+
+    //what if n ==0
+           function nthrootofa(uint256 a,uint n) public   {
+        //add return boool for j=3
+        
+          pg=(a/2);
+        uint  rek;
+          p2=a;
+        uint256  p3;
+        uint  j; //line noot needed
+        
+        
+   
+        
+
+        // while loop
+        j=n;
+        rek=-1+2**256;
+        while (j > 1) {
+            rek=rek/pg;
+            j--;
+           
+        }
+        if (rek < pg) {
+            
+        
+        } else {
+            
+        
+          
+        
+    
+
+            
+        while (pg**n > a) {
+             p2=pg;
+            pg=pg/2;
+            }
+           p3=pg;//chech p4 overflow
+        while( pg+1<p2){
+          
+           
+           
+         while (p3**n < a) {
+             //p3 no defined if pg <lol
+             pg=p3;
+             p3=(pg+p2)/2;
+             //pog2 might be too big
+             if(p3==pg){break;}
+           }
+          if(p3==pg){break;}  
+       
+       
+             p2=p3;
+        while (p3**n > a) {
+            p2=p3;
+
+             p3=(pg+p2)/2;
+             
+            }
+           pg=p3;
+          
+             }
+             
+              }
+              
+        }
+       
+        uint z;
+         function ethrootofa(uint z) public  returns (bool overflow,uint pg2,uint p22) {
+            
+           nthrootofa(z, 2);
+            pg2=p2;
+           nthrootofa(z, 3);
+            p22=pg;
+           return (false, pg2, p22);
+         }
+
+         }
